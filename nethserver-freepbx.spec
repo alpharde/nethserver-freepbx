@@ -17,11 +17,11 @@ Requires(preun): systemd
 Requires(postun): systemd
 
 Requires: freepbx
-Requires: nethserver-rh-php56-php-fpm
-Requires: rh-php56-php-mysql, rh-php56-php-pear, rh-php56-php-pdo
-Requires: rh-php56-php-process, rh-php56-php-xml, rh-php56-php-mbstring
-Requires: rh-php56-php-intl, rh-php56-php-ldap, rh-php56-php-odbc, rh-php56-php-gd
-Requires: nethserver-mysql
+Requires: php56-php-fpm
+Requires: php56-php-mysql, php56-php-pear, php56-php-pdo
+Requires: php56-php-process, php56-php-xml, php56-php-mbstring
+Requires: php56-php-intl, php56-php-ldap, php56-php-odbc, php56-php-gd
+Requires: mariadb
 Requires: nethserver-unixODBC
 
 %description
